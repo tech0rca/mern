@@ -1,3 +1,18 @@
+Routes:
+```javascript
+const exerciseRouter = require('./routes/exercises');
+const usersRouter = require('./routes/users');
+
+app.use('/exercises', exerciseRouter);
+app.use('/users', usersRouter);
+```
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
